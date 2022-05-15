@@ -1,0 +1,57 @@
+body
+{
+    background: #6190E8;  
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  
+    background: linear-gradient(to right, #A7BFE8, #6190E8); 
+    font-family:sans-serif;
+
+  }
+
+#ust
+{
+
+    height: 60px;
+    width: 700px;
+
+}
+.col-md-4
+{
+    height: 700px;
+}
+article{
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    color :rgb(223, 219, 219);
+    
+}
+#image
+{
+    width: 150px;
+    height: 150px;
+}
+section
+{
+  padding-left: 20px;
+   
+}
+#egitimbilgi
+{
+    margin-top: 20px;
+font-family:sans-serif;
+}
+#kenar
+{
+margin-left: 550px;   
+margin-top: -400px;
+}
+.bg-info
+{
+    width: 100%;
+
+}
+aside{
+    margin-top: 20px;
+}
+nav{
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+body{
+    background: #6190E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family:sans-serif;
+
+}
+.kopekler {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.kopek {
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	height: 400px;
+	width: 300px;
+}
+
+.kopek img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.butonlar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#kopekbuton {
+	background-color: rgb(179, 165, 220);
+	border: 0;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+}
+nav{
+	text-align: center;
+}
+
